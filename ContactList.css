@@ -1,0 +1,60 @@
+.contact-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  input[type='text'] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+  }
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .delete-btn,
+  .edit-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #f70808; /* Red color for delete button */
+  }
+  
+  .edit-btn {
+    background-color: #0bcbf7; /* Reddish color for edit button */
+  }
